@@ -1,7 +1,7 @@
 # logic-analyzer
 
-#define TSL1401_CLK 16 //  test pin
-#define TSL1401_SI 17 //  test pin
+#define TSL1401_CLK 3 //  test pin
+#define TSL1401_SI 4 //  test pin
 
 void read_TSL1401_camera(void)
 {
