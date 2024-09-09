@@ -1,3 +1,23 @@
+```c
+void setup() {
+  Serial.begin(115200);
+  
+  Serial.println("test");
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  for(int i=0; i<100;i++)
+{
+  Serial.println(i);
+  delay(10);
+
+}
+}
+```
+```c
 #define TSL1401_CLK 22 //  test pin
 #define TSL1401_SI 23 //  test pin
 #define NPIXELS 128
@@ -64,3 +84,4 @@ void loop()
   send_camera_data_serial();
   delay(100);
 }
+```
