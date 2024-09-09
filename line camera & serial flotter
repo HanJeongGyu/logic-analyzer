@@ -1,4 +1,4 @@
-```c
+```base
 void setup() {
   Serial.begin(115200);
   
@@ -17,7 +17,7 @@ void loop() {
 }
 }
 ```
-```c
+```final
 #define TSL1401_CLK 22 //  test pin
 #define TSL1401_SI 23 //  test pin
 #define NPIXELS 128
