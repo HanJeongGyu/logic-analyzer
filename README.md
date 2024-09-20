@@ -8,7 +8,7 @@ void read_TSL1401_camera(void)
   digitalWrite(TSL1401_CLK, HIGH);
   delayMicroseconds(1);
   digitalWrite(TSL1401_CLK, LOW);
-  delayMicroseconds(1);
+  delayMicroseconds(1); 
 
   digitalWrite(TSL1401_SI, HIGH);
   delayMicroseconds(1);
