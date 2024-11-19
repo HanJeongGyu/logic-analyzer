@@ -3,12 +3,12 @@
 #define CLKpin 22
 #define NPIXELS 128
 
-#define ENA 12
-#define IN1 8
-#define IN2 9
-#define IN3 10
-#define IN4 11
-#define ENB 13
+#define ENA 7
+#define IN1 11
+#define IN2 10
+#define IN3 9
+#define IN4 8
+#define ENB 12
 
 byte Pixel[NPIXELS];
 byte Threshold_Data[NPIXELS];
